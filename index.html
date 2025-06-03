@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Festa Junina Encantada</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
+</head>
+<body>
+<div class="bandeirinhas-topo"></div>
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho">
+    <img src="img/cabecalho.jpg" alt="Festa Junina" />
+    <div class="titulo">
+      <h1>Festa Junina Encantada</h1>
+      <p>Entre bandeirinhas, sabores e alegria</p>
+    </div>
+  </header>
+
+
+  <!-- Seção História -->
+  <section class="historia">
+    <h2>🌽 A História da Festa</h2>
+    <div class="conteudo">
+      <img src="img/historia.jpg" alt="História da Festa" />
+      <p>As festas juninas começaram no campo, celebrando a colheita com alegria e gratidão. Hoje, elas invadem as cidades com comidas típicas, danças e tradições que encantam todas as idades.</p>
+    </div>
+    <div class="balao">
+  Você sabia? A Festa Junina tem origem europeia, mas foi adaptada pelos povos do campo no Brasil!
+</div>
+  </section>
+  
+  <!-- Galeria de Comidas -->
+  <section class="comidas">
+    <h2>🍴 Sabores Típicos</h2>
+    <div class="galeria">
+      <div class="item" style="background-image: url('img/pamonha.jpg');">
+        <div class="legenda">Pamonha</div>
+      </div>
+      <div class="item" style="background-image: url('img/canjica.jpg');">
+        <div class="legenda">Canjica</div>
+      </div>
+      <div class="item" style="background-image: url('img/cural.jpg');">
+        <div class="legenda">Cural</div>
+      </div>
+    
+<div class="item" style="background-image: url('img/milho.jpg');">
+  <div class="legenda">Milho Cozido</div>
+</div>
+<div class="item" style="background-image: url('img/bolo.jpg');">
+  <div class="legenda">Bolo de Fubá</div>
+</div>
+<div class="item" style="background-image: url('img/maca.jpg');">
+  <div class="legenda">Maçã do Amor</div>
+</div>
+<div class="item" style="background-image: url('img/cocada.jpg');">
+  <div class="legenda">Cocada</div>
+</div>
+<div class="item" style="background-image: url('img/pe-de-moleque.jpg');">
+  <div class="legenda">Pé de Moleque</div>
+</div>
+<div class="item" style="background-image: url('img/quentao.jpg');">
+  <div class="legenda">Quentão</div>
+</div>
+    </div>
+  </section>
+
+  <!-- Quadrilha -->
+  <section class="quadrilha">
+    <h2>💃 A Quadrilha Vai Começar!</h2>
+    <img src="img/quadrilha.jpg" alt="Quadrilha animada" />
+    <p>Vista sua roupa caipira, entre na dança e sinta a alegria da quadrilha iluminando a noite!</p>
+  </section>
+
+  <!-- Participe -->
+  <section class="participe">
+    <h2>🎉 Participe da Festa!</h2>
+    <p>Traga sua alegria, seu chapéu de palha e venha celebrar com a gente!</p>
+ <a href="#contato" class="botao">Quero Participar</a>
+  </section>
+<section class="contato" id="contato">
+  <h2>📬 Fale com a Gente</h2>
+  <form action="#" method="post" class="formulario">
+  <div class="campo">
+    <i class="fas fa-user"></i>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+  </div>
+
+  <div class="campo">
+    <i class="fas fa-envelope"></i>
+    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+  </div>
+
+  <div class="campo">
+    <i class="fas fa-comment"></i>
+    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+  </div>
+
+  <button type="submit" onclick="document.querySelector('.mensagem-sucesso').style.display='block'; return false;">
+    <i class="fas fa-paper-plane"></i> Enviar Mensagem
+  </button>
+
+  <p class="mensagem-sucesso">🎉 Sua mensagem foi enviada com sucesso! Obrigado pelo contato!</p>
+</form>
+</section>
+
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Festa Junina Encantada • Desenvolvido com alegria e paçoca 🎈</p>
+  </footer>
+
+</body>
+</html>
