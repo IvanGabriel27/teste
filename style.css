@@ -436,3 +436,94 @@ footer {
   padding: 20px;
   margin: 0;
 }
+/* === MEDIA QUERIES PARA RESPONSIVIDADE === */
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 1.8rem;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+  }
+
+  .item {
+    width: 90%;
+    height: 200px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    font-size: 0.95rem;
+  }
+
+  .formulario button {
+    font-size: 1rem;
+  }
+
+  .balao-esquerdo,
+  .balao-direito {
+    width: 60px;
+  }
+
+  .fogueira {
+    width: 50px;
+    height: 90px;
+  }
+
+  .chama {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tronco {
+    width: 20px;
+    height: 6px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    font-size: 0.95rem;
+  }
+
+  .modal-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .modal-content ul {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo h1 {
+    font-size: 1.5rem;
+  }
+
+  .titulo p {
+    font-size: 0.9rem;
+  }
+
+  .botao {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+
+  .modal-content {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .modal-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .historia img,
+  .quadrilha img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formulario {
+    padding: 0 10px;
+  }
+}
