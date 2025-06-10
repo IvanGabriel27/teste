@@ -361,17 +361,19 @@ section.participe {
   display: none;
 }
 
+ 
 .modal {
   position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0;
   background: rgba(0,0,0,0.6);
   display: none;
   justify-content: center;
   align-items: center;
   z-index: 999;
+  overflow-y: auto; /* permite rolar o modal se for pequeno */
+  padding: 20px;
 }
+
 
 .modal-toggle:checked + label + .modal {
   display: flex;
@@ -386,6 +388,8 @@ section.participe {
   text-align: left;
   color: #5d4037;
   position: relative;
+    max-height: 90vh;
+  overflow-y: auto;
 }
 
 .modal-content h3 {
