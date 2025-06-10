@@ -363,14 +363,16 @@ section.participe {
 
  
 .modal {
-  position: fixed;
-  inset: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100vw;
   background: rgba(0,0,0,0.6);
   display: none;
   justify-content: center;
   align-items: center;
   z-index: 999;
-  overflow-y: auto; /* permite rolar o modal se for pequeno */
   padding: 20px;
 }
 
@@ -380,6 +382,8 @@ section.participe {
 }
 
 .modal-content {
+  max-height: 90vh;
+  overflow-y: auto;
   background: #fff8e1;
   padding: 30px;
   border-radius: 15px;
@@ -388,9 +392,8 @@ section.participe {
   text-align: left;
   color: #5d4037;
   position: relative;
-    max-height: 90vh;
-  overflow-y: auto;
 }
+
 
 .modal-content h3 {
   color: var(--rosa);
