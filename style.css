@@ -358,37 +358,6 @@ section.participe {
   transform: rotate(-25deg);
 }
 
-/* === BALÕES DECORATIVOS === */
-.balao-esquerdo,
-.balao-direito {
-  position: absolute;
-  width: 60px; /* tamanho ajustado */
-  height: auto;
-  z-index: 3;
-  animation: flutuar 4s ease-in-out infinite alternate;
-}
-
-.balao-esquerdo {
-  top: 40%;
-  left: 20px;
-  transform: translateY(-50%);
-}
-
-.balao-direito {
-  top: 40%;
-  right: 20px;
-  transform: translateY(-50%) scaleX(-1);
-}
-
-@keyframes flutuar {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-15px);
-  }
-}
-
 
 /* === MODAL === */
 .modal-toggle {
