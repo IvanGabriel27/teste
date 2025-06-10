@@ -361,7 +361,6 @@ section.participe {
   display: none;
 }
 
- 
 .modal {
   position: absolute;
   top: 0;
@@ -376,9 +375,11 @@ section.participe {
   padding: 20px;
 }
 
-
 .modal-toggle:checked + label + .modal {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .modal-content {
@@ -393,7 +394,6 @@ section.participe {
   color: #5d4037;
   position: relative;
 }
-
 
 .modal-content h3 {
   color: var(--rosa);
