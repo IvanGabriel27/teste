@@ -2,7 +2,7 @@
 
 /* === VARIÁVEIS === */
 :root {
-  --rosa: #ff4d6d;
+  --rosa: #f62048;
   --amarelo: #ffc107;
   --verde: #28a745;
   --azul: #17a2b8;
@@ -31,6 +31,7 @@ h1, h2 {
   text-align: center;
   color: var(--rosa);
   margin-bottom: 20px;
+  font-size: 2.0rem;
 }
 
 /* === CABEÇALHO === */
@@ -57,11 +58,11 @@ header.cabecalho img {
 }
 
 .titulo h1 {
-  font-size: 2.5rem;
+  font-size: 3.0rem;
 }
 
 .titulo p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 
