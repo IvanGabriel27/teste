@@ -513,5 +513,9 @@ footer {
     padding: 0 10px;
   }
 }
+.galeria {
+  position: relative;
+  z-index: 1;
+}
 
 
