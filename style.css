@@ -362,18 +362,33 @@ section.participe {
 .balao-esquerdo,
 .balao-direito {
   position: absolute;
-  width: 100px;
+  width: 60px; /* tamanho ajustado */
   height: auto;
   z-index: 3;
   animation: flutuar 4s ease-in-out infinite alternate;
 }
-.balao-esquerdo { bottom: 0; left: 10px; }
-.balao-direito { top: 20px; right: 10px; transform: scaleX(-1); }
+
+.balao-esquerdo {
+  top: 40%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.balao-direito {
+  top: 40%;
+  right: 20px;
+  transform: translateY(-50%) scaleX(-1);
+}
 
 @keyframes flutuar {
-  from { transform: translateY(0) scaleX(1); }
-  to   { transform: translateY(-15px) scaleX(1); }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
 }
+
 
 /* === MODAL === */
 .modal-toggle {
