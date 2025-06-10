@@ -1,4 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+/* ✨ Reset extra para eliminar margens/paddings padrões */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Garanta que o conteúdo do cabeçalho grude no topo */
+header.cabecalho {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Imagem do cabeçalho sem gap inesperado */
+header.cabecalho img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block; /* elimina espaçamento por ser inline-block */
+  border: none;
+}
+
+/* Zera margens típicas de títulos que podem colapsar */
+h1, h2 {
+  margin: 0;
+}
+
+/* Remove espaçamento superior da seção de história */
+section#historia {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 
 /* === VARIÁVEIS === */
 :root {
