@@ -499,4 +499,8 @@ footer {
     padding: 0 10px;
   }
 }
+header.cabecalho img {
+  display: block;
+  margin: 0;
+}
 
