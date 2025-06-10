@@ -363,14 +363,17 @@ section.participe {
 
 .modal {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
   background: rgba(0,0,0,0.6);
   display: none;
-  justify-content: center;
   align-items: center;
-  z-index: 999;
+  justify-content: center;
+  z-index: 1000;
   padding: 20px;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .modal-toggle:checked + label + .modal {
@@ -383,11 +386,11 @@ section.participe {
   border-radius: 15px;
   max-width: 400px;
   width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
   text-align: left;
   color: #5d4037;
   position: relative;
-  max-height: 90vh;
-  overflow-y: auto;
 }
 
 .modal-content h3 {
