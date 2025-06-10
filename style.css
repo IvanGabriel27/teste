@@ -499,17 +499,5 @@ footer {
     padding: 0 10px;
   }
 }
-header.cabecalho img {
-  display: block;
-  margin: 0;
-}
-header.cabecalho {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
 
-section#historia {
-  margin-top: 0;
-  padding-top: 0;
-}
 
